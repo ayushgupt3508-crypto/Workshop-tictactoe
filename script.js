@@ -43,9 +43,13 @@ boxes.forEach((box) => {
         console.log(count);
     
         if(turnX){
+            box.classList.remove("O");
+            box.classList.add("X");
             box.innerHTML = "X";
             turnX = false;
         }else{
+            box.classList.remove("X");
+            box.classList.add("O");
             box.innerHTML = "O";
             turnX = true;
         }

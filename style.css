@@ -33,9 +33,11 @@ body{
     align-items: center;
     justify-content: center; 
     border-radius: 5px;
-    color: black;
-    
-       
+    color: rgb(2, 2, 2);    
+}
+.box:hover{
+    background-color: hsl(213, 76%, 50%);
+
 }
 .btn{
     display: grid;
@@ -44,14 +46,18 @@ body{
 }
 .new-game{
     border: 2px solid #000000;
-    background-color: rgb(57, 77, 231);
-    color: white;
+    background: linear-gradient(rgb(255, 100, 100),rgb(69, 69, 230),rgb(16, 233, 16));
+    color: rgb(9, 9, 9);
     padding: 7px;
     border-radius: 90px;
+    font-weight: bold;
+    
     
 }
+.new-game:hover{
+    font-size: 1.1em;
+}
 .hide{
-    
     display: none;
 }
 .msgContainer{
@@ -73,6 +79,12 @@ h1{
     padding-top: 3px;
     padding-bottom: 3px;
     border-radius: 20px;
+}
+.X{
+    color: red
+}
+.O{
+    color:blue
 }
 
 
